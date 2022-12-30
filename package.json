@@ -1,0 +1,11 @@
+{
+  "name": "westone-editor",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "pnpm run --filter main dev",
+    "build:util": "pnpm run --filter editor-utils build",
+    "server": "pnpm run --filter server server"
+  }
+}
